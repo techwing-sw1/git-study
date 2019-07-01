@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MVStudio - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/MVStudio.res" /d "_DEBUG" /d "_AFXDLL" "D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\MVStudio.rc"" 
+Creating temporary file "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A4F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MVStudio.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\ChildFrm.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\Dib.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DibEnhancement.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DlgArithmetic.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DlgConvert1D.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DlgHistogram.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DlgInputValue.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\DlgNewImage.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\MainFrm.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\MVStudio.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\MVStudioDoc.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\MVStudioView.cpp"
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\RGBBYTE.cpp"
+]
+Creating command line "cl.exe @C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A4F.tmp" 
+Creating temporary file "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A50.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MVStudio.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Lecture\MAC OB Seminar\trunk\MachineVision\2012.12.22\Src\MVStudio\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A50.tmp" 
+Creating temporary file "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A61.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MVStudio.pdb" /debug /machine:I386 /out:"Debug/MVStudio.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\Dib.obj"
+".\Debug\DibEnhancement.obj"
+".\Debug\DlgArithmetic.obj"
+".\Debug\DlgConvert1D.obj"
+".\Debug\DlgHistogram.obj"
+".\Debug\DlgInputValue.obj"
+".\Debug\DlgNewImage.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MVStudio.obj"
+".\Debug\MVStudioDoc.obj"
+".\Debug\MVStudioView.obj"
+".\Debug\RGBBYTE.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MVStudio.res"
+]
+Creating command line "link.exe @C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP3A61.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+Dib.cpp
+DibEnhancement.cpp
+DlgArithmetic.cpp
+DlgConvert1D.cpp
+DlgHistogram.cpp
+DlgInputValue.cpp
+DlgNewImage.cpp
+MainFrm.cpp
+MVStudio.cpp
+MVStudioDoc.cpp
+MVStudioView.cpp
+RGBBYTE.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP5014.tmp" with contents
+[
+/nologo /o"Debug/MVStudio.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ChildFrm.sbr"
+".\Debug\Dib.sbr"
+".\Debug\DibEnhancement.sbr"
+".\Debug\DlgArithmetic.sbr"
+".\Debug\DlgConvert1D.sbr"
+".\Debug\DlgHistogram.sbr"
+".\Debug\DlgInputValue.sbr"
+".\Debug\DlgNewImage.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MVStudio.sbr"
+".\Debug\MVStudioDoc.sbr"
+".\Debug\MVStudioView.sbr"
+".\Debug\RGBBYTE.sbr"]
+Creating command line "bscmake.exe @C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP5014.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP510E.bat" with contents
+[
+@echo off
+copy          .\Debug\MVStudio.exe           ..\Bin\
+]
+Creating command line "C:\Users\MYOUNG~1.NA\AppData\Local\Temp\RSP510E.bat"
+
+        1개 파일이 복사되었습니다.
+
+
+
+<h3>Results</h3>
+MVStudio.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
