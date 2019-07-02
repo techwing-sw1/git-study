@@ -76,6 +76,11 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	EnableDocking(CBRS_ALIGN_ANY);
 	DockControlBar(&m_wndToolBar);
 
+	int Number = 0;
+	int Number = 1;
+	int Number = 2;
+	int Number = 3;
+
 	return 0;
 }
 
