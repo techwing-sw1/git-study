@@ -2,6 +2,8 @@
 //
 //////////////////////////////////////////////////////////////////////
 
+// 이 파일은 my_first_branch에서 수정하였습니다.
+
 #if !defined(AFX_DIB_H__BFDD6CA5_526E_4A73_BEBD_ACD8349C3F0E__INCLUDED_)
 #define AFX_DIB_H__BFDD6CA5_526E_4A73_BEBD_ACD8349C3F0E__INCLUDED_
 
