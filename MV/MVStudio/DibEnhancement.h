@@ -4,6 +4,8 @@
 #include "Dib.h"
 #include "RGBBYTE.h"
 
+// 이번에는 두번째 브랜치에서 수정 하였습니다.
+
 // IMAGE Enhancement
 int MV_Inverse(CDib& Src, CDib& Result);
 int MV_Brightness(CDib& Src, int nVal, CDib& Result);
